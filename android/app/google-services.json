@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "109224911796",
+    "project_id": "appfunction-4a225",
+    "storage_bucket": "appfunction-4a225.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109224911796:android:48a5ae11176dd79c4ac8e1",
+        "android_client_info": {
+          "package_name": "br.com.appfunction"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109224911796-8br7agkon77ii5lot68cj9vgrkqhdeeh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4lJL5pGBgtZemJwdkkuMnkjzqMQlOWxM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109224911796-8br7agkon77ii5lot68cj9vgrkqhdeeh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

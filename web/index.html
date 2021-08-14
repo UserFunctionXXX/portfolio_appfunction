@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    Fore more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+ 
+
+	<!-- This site is optimized with the Yoast SEO Premium plugin v13.2 - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="description" content="Venha para appFunction...Iremos trabalhar em conjunto com você e fazer seu projeto virar realidade a um preço justo."/>
+	<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+	<link rel="canonical" href="https://www.appfunction.com.br/" />
+	<meta property="og:locale" content="pt_BR" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="appFunction - Soluções Mobile | Web" />
+	<meta property="og:description" content="Venha para appFunction...Iremos trabalhar em conjunto com você e fazer seu projeto virar realidade a um preço justo." />
+	<meta property="og:url" content="https://www.appfunction.com.br/" />
+	<meta property="og:site_name" content="appFunction" />
+	
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="appfunction">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>appfunction</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+<!-- This script installs service_worker.js to provide PWA functionality to
+   application. For more information, see:
+   https://developers.google.com/web/fundamentals/primers/service-workers -->
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js?v=3525115961');
+      });
+    }
+	
+	// Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+	var firebaseConfig = {
+		apiKey: "AIzaSyCmJLE142hzzb0RqjdT6N0LurAX9YnOZGY",
+		authDomain: "appfunction-4a225.firebaseapp.com",
+		projectId: "appfunction-4a225",
+		storageBucket: "appfunction-4a225.appspot.com",
+		messagingSenderId: "109224911796",
+		appId: "1:109224911796:web:656a6a568fdc79934ac8e1",
+		measurementId: "G-1ME1H6MTCQ"
+	  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+  </script>
+  <script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>
